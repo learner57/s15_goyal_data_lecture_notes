@@ -1,6 +1,6 @@
 # s15_goyal_data_lecture_notes
 
-##Lecture 1
+##Lecture 1: Jan 13, 2015
 
 Data engineering - in this class, it will be termed as big data software engineering.
 
@@ -33,3 +33,57 @@ After step 6, it again goes back to the step 1 to get refined responses. Life cy
 As a user, google search, filter, mobile app, web app are ways to interact to big data. 
 
 An HTTP request uses the HTTP network protocol to further use get, put, post, delete requests which goes to HTTP server, which receives the HTTP request and responses back. This is known as request response cycle. 
+
+
+##Lecture 2: Jan 15, 2015
+
+Presentation 
+
+Markdown - a type of markup language which uses plain text formatting, can be converted to HTML and has two types - standard version and GitHub flavored. 
+
+You can add lists, emojis, styles, images, links, codes using the Markdown language. 
+
+Lists can be unordered or ordered. 
+
+"#" sign gives headers. Bold, italics can be used by using "**word**" and "*word*". 
+
+links can be created by using [] or () 
+
+for using code block, use three ``` in the start and end of the code block. 
+
+You can add tables and horizontal lines. 
+
+End of the presentation
+
+#Communcation between web browser and web server 
+
+using http request on http port. Majorly we use GET and PUT. Web server is deployed in APACHE and responds to the requests. 
+requests uses image tags, script tags to embedd in HTML
+
+rails modularize the structure of the page to be loaded accprding to the user demands. 
+
+#RESTFUL SERVICES
+
+REST : Representation about resources conveyed through a representing pattern. Resources are URIs which are a superclass of URLs. S- state, T- transtion. 
+
+CRUD: Create, Read, Update, Delete operations are used in Representation of the resources. 
+
+#Using REST over services: Just like the anamoly with CREATE
+GET: Read and get back to the current state of the resources, eg. /users/{id} will get you back the ids of the user 
+
+POST: Create the {data} 
+
+PUT: Update the existing resource
+
+DELETE: as usual
+
+#Create a simple service using the restful services. 
+ruby sinatra to create web services
+require Json
+configure-end
+get-end
+
+
+
+
+
