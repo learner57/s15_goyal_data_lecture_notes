@@ -37,7 +37,7 @@ An HTTP request uses the HTTP network protocol to further use get, put, post, de
 
 ##Lecture 2: Jan 15, 2015
 
-Presentation 
+#Presentation 
 
 Markdown - a type of markup language which uses plain text formatting, can be converted to HTML and has two types - standard version and GitHub flavored. 
 
@@ -57,18 +57,28 @@ End of the presentation
 
 #Communcation between web browser and web server 
 
-using http request on http port. Majorly we use GET and PUT. Web server is deployed in APACHE and responds to the requests. 
-requests uses image tags, script tags to embedd in HTML
+using http request on http port. 
+
+Majorly we use GET and PUT. 
+
+Web server is deployed in APACHE and responds to the requests.
+
+requests uses image tags, script tags to embedd in HTML.
 
 rails modularize the structure of the page to be loaded accprding to the user demands. 
 
 #RESTFUL SERVICES
 
-REST : Representation about resources conveyed through a representing pattern. Resources are URIs which are a superclass of URLs. S- state, T- transtion. 
+REST : Representation about resources conveyed through a representing pattern. 
+
+Resources are URIs which are a superclass of URLs. 
+
+S- state, T- transtion. 
 
 CRUD: Create, Read, Update, Delete operations are used in Representation of the resources. 
 
 #Using REST over services: Just like the anamoly with CREATE
+
 GET: Read and get back to the current state of the resources, eg. /users/{id} will get you back the ids of the user 
 
 POST: Create the {data} 
@@ -78,9 +88,13 @@ PUT: Update the existing resource
 DELETE: as usual
 
 #Create a simple service using the restful services. 
+
 ruby sinatra to create web services
+
 require Json
+
 configure-end
+
 get-end
 
 
