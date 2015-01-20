@@ -97,6 +97,36 @@ configure-end
 
 get-end
 
+#Lecture 3: Jan 20, 2015
+
+##REST 
+
+Asynchronous requests with javascript - when page stays but reloads some parts of it. 
+
+basic authentication and oath 2 authentication is required to complete high level complicated delete operations. 
+
+##Operations on 2 resources: 
+
+FIRST APPROACH: COMBINE BOTH THE RESOURCES IN ONE URL: 
+
+Lets have /users/0 and /possesions/1 are the separate URL resources then combined REST service on both resources will be GET /users/0/possessions/1  for lets say GET example. You can do for POST too the same way. 
+
+SECOND APPROACH: WHILE PERFORMING ONE OPERATION, REFER TO ANOTHER RESOURCE USING REFERENCE ID. 
+
+##ISSUES:
+
+1. Security: authentication of users
+2. Identity: assigning IDs
+3. Failure: handling of failing situations: using HTTP status codes(404 error) or handle using JSON, or combination of both. 
+4. Persistance: storage of resources: java implemetation is shown in lecture and ruby implementation stores resources in files. You can also use databases like Cassandra. 
+
+#EXAMPLES: 
+Using Sinatra, Rspec, Typhoeus, Node and Express. 
+
+Use Rspec testing framework. 
+
+
+
 
 
 
