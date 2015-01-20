@@ -120,7 +120,7 @@ SECOND APPROACH: WHILE PERFORMING ONE OPERATION, REFER TO ANOTHER RESOURCE USING
 3. Failure: handling of failing situations: using HTTP status codes(404 error) or handle using JSON, or combination of both. 
 4. Persistance: storage of resources: java implemetation is shown in lecture and ruby implementation stores resources in files. You can also use databases like Cassandra. 
 
-#EXAMPLES: 
+##EXAMPLES: 
 Using Sinatra, Rspec, Typhoeus, Node and Express. 
 
 Use Rspec testing framework. 
