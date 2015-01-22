@@ -125,6 +125,44 @@ Using Sinatra, Rspec, Typhoeus, Node and Express.
 
 Use Rspec testing framework. 
 
+#Lecture 4: Jan 22, 2015
+
+##Presentation 1- Git Version Control System
+5 possible stages for workflow: Untracked, unmodified, modified, staged, remote. 
+
+Initialization: git init
+
+clone: git clone remote_repository_address
+
+branch: git branch new_branch_name
+
+	to delete the branch, use git branch -d new_branch_name
+
+checkout: git checkout branch_name 
+
+add file: got add file 
+
+commit: got commit -m "Commit Message"
+
+merge: got merge branch_name 
+
+##Presentation 2: Introduction of Github
+
+its a close loop of master to branch then to pull request
+
+new branch is new feature. do not add directly to the master branch. 
+
+after creating branches commit messages. Then pull request. to add to the master branch for production. 
+
+fork - carbon copy of repository, for running experiments. 
+
+difference between forking and cloning? forking is done when you don't have collaborator access. else you do cloning. 
+
+
+
+
+
+
 
 
 
