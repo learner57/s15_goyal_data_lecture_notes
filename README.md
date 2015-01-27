@@ -158,6 +158,17 @@ fork - carbon copy of repository, for running experiments.
 
 difference between forking and cloning? forking is done when you don't have collaborator access. else you do cloning. 
 
+#Lecture 5: Jan 27, 2015
+
+##NODE.JS
+Service side tool for executing Javascript like Chrome. 
+
+most of the code is in package of a module in node. example, core module 
+
+CreateServer() function implements server and returns object with method listen()
+
+console.log prints the statement in Javascript. 
+
 
 
 
