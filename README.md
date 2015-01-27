@@ -169,6 +169,34 @@ CreateServer() function implements server and returns object with method listen(
 
 console.log prints the statement in Javascript. 
 
+Event Loop and queue allows to add work and libraries for later execution. 
+
+Example of EVent Loop - process.nexttick() - prioritize the procces over any pernding I/O
+
+next tick makes the function which calls the event in next loop. 
+
+setimmediate() - leaves current interation and processes I/O 
+
+check about setTimeout() and setInterval()
+
+###CALLBACK HELL
+
+for async programming
+
+callback gets intended
+
+##Node Execution Model 
+
+Node is single threaded. code written are in sync. no worries about race conditions. IOS is parallely handled. 
+
+callback gets registered if issue is async call for IO
+
+IO gets executed in separate thread
+
+easy to do server side services
+
+
+
 
 
 
