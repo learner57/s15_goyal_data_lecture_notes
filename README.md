@@ -195,6 +195,22 @@ IO gets executed in separate thread
 
 easy to do server side services
 
+#Lecture 5: Jan 29, 2015
+
+##EXPRESS 
+
+Web application framework written in javascript. 
+
+features to serve static files and is influenced by Sinata. 
+
+middleware framwork 
+
+package.json
+
+
+
+
+
 
 
 
