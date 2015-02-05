@@ -207,9 +207,9 @@ middleware framwork
 
 package.json
 
+#Lecture 7: Feb 5, 2015
 
-
-
+##reviewing a complicated example of angular node.js
 
 
 
