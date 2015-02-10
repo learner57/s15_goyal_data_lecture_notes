@@ -211,7 +211,13 @@ package.json
 
 ##reviewing a complicated example of angular node.js
 
+#Lecture 8: Feb 10, 2015
+usin clojure and javascript for Ken's first Gist. It changes as per the javascript code develops. automatically defined by runtime engine. 
 
+1. IIFEs - useful while returning object. global keyword can not use variable defined inside the block of code. 
+
+##Getting Data from Twitter
+create an account via twitter apps and work on access token. dev.twitter.com
 
 
 
