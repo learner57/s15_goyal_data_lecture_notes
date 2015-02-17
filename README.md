@@ -219,6 +219,11 @@ usin clojure and javascript for Ken's first Gist. It changes as per the javascri
 ##Getting Data from Twitter
 create an account via twitter apps and work on access token. dev.twitter.com
 
+#Lecture 11: Feb 17, 2015
+
+##working with the twitter framework
+
+5 REST APIs, timeline concept, automatic handle of twitter rate limits
 
 
 
