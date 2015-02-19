@@ -225,8 +225,35 @@ create an account via twitter apps and work on access token. dev.twitter.com
 
 5 REST APIs, timeline concept, automatic handle of twitter rate limits
 
+#Lecture 12: Feb 19, 2015
 
+##NoSQL DATABASES
 
+need to switch to new type of databases to efficiently use DB's in the services. 
+
+Vertical scaling 
+Sharding
+problems with the above solutions make us to switch to nosql DBs. We need to bring complexity to the architecture to make the application simpler while in terms of using the database. Challenege with relational DB is:
+1. Fault tolerance is very hard
+2. COmplexity is pushed to the application layer
+3. Lack of human fault tolerance
+4. maintainence is huge amount of work
+
+NoSQL are distributed in nature and are horizontally scalable. They manage replication and sharding automatically. 
+
+##Types of NoSQL DB:
+1. Key value
+2. Graphs
+3. Columnar
+4. Document
+
+Key Vlaue stores are like hash tables, presented with a key and associated value. It can store any format of the data. There is no query language. Examples being Voldemort, S3, Redis. 
+
+Graph stores provides structured query language, optimized to store graph structure, traversing of the graph is efficient, you can also calculate shortest path and relation among different set of nodes and hop from one node to another. SHarding could be difficult. 
+
+Columnar Stores can scale to enormous amount of data. This type of DB has column families having row and their unique row keys. There is a distributed hash table all the way. Examples being Cassandra and HBase. 
+
+Document stores are bags of key value pairs also termed as documents stored in the collection. Example MongoDB, CouchDB
 
 
 
