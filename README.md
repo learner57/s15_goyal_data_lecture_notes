@@ -269,6 +269,8 @@ While designing distributed systems, one must take into account CAP theorem - Co
 ###Implementation of CouchDB
 It uses B-tree storage engine. AUtomatic searching and uses MapReduce over the B-tree to compute views of parallel and incremental computation. No Locking used. Validation function can be written for classes of document in Javascript. Incremental replication allows to sync data between 2 servers. 
 
+It supports CURD operations. 
+
 
 
 
