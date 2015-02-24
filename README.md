@@ -255,6 +255,22 @@ Columnar Stores can scale to enormous amount of data. This type of DB has column
 
 Document stores are bags of key value pairs also termed as documents stored in the collection. Example MongoDB, CouchDB
 
+#Lecture 13: Feb 24, 2015
+
+##CouchDB
+Document based DB written in Erlang language used in telecommunications. 
+It has RESTful API and is built for distribution and is highly consistent. 
+It has self contained data based on storing documents. No use of foregin key or any other pointers. 
+No schema available. 
+
+
+While designing distributed systems, one must take into account CAP theorem - Consistency, Availability and Partition Tolerance. You can only work on two at once. CouchB=DB works with availability and Partiton Tolerance whcih guarantees EVENTUAL consistency. 
+
+###Implementation of CouchDB
+It uses B-tree storage engine. AUtomatic searching and uses MapReduce over the B-tree to compute views of parallel and incremental computation. No Locking used. Validation function can be written for classes of document in Javascript. Incremental replication allows to sync data between 2 servers. 
+
+
+
 
 
 
