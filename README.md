@@ -271,6 +271,21 @@ It uses B-tree storage engine. AUtomatic searching and uses MapReduce over the B
 
 It supports CURD operations. 
 
+#Lecture 14: Feb 26, 2015
+
+##MongoDB Presentation - Vikas Mehta
+
+No fixed schema. Stores the data in BSON format. Indexes are implemented as B-trees.
+No multi document atomic transactions are allowed. MongoDB supports Consistency and Availability. 
+Documents have hierarchical structure. Documents are ordered set of keys and keys are associated with values. 
+Its type sensitive and case sensitive. Cannot contain duplicate keys. 
+
+MongoDB has some reserved Databases like Admin, Local and Config. 
+
+Windows Xp is not supported. 
+
+Use of MongoLabs
+
 
 
 
