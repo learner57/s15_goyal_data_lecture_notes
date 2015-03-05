@@ -286,6 +286,17 @@ Windows Xp is not supported.
 
 Use of MongoLabs
 
+#Lecture 16: Mar 5, 2015
+
+##MongoDB Indexes
+
+Import tweets
+Clean data 
+use MongoDB
+
+MongoDB Indexes: 1 means ascending and -1 means descending. 
+
+Compund Indexes: to sort and query on two attributes. 
 
 
 
