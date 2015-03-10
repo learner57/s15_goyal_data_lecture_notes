@@ -298,6 +298,19 @@ MongoDB Indexes: 1 means ascending and -1 means descending.
 
 Compund Indexes: to sort and query on two attributes. 
 
+#Lecture 17: Mar 10, 2015
+
+##MongoDB Continued: More on Indexes and MapReduce
+
+Indexes reduces the amount of documents needed and in memory sorting. Indexes get updated as soon as related document is updated. 
+
+Index cardinality: possible values for the indexed field. High cardinality fields have greater possibility to reduce query much faster. 
+
+Full text indexes and Geospatial indexes. 
+
+MongoDB has full text search. 
+
+Geospatial index supposrts GeoJSON format. Mongo supports, points, lines, polygons. 
 
 
 
