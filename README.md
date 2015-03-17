@@ -312,8 +312,32 @@ MongoDB has full text search.
 
 Geospatial index supposrts GeoJSON format. Mongo supports, points, lines, polygons. 
 
+#Lecture 18: Mar 17, 2015
 
+##Solr Presentation
 
+uses Apache lucene. used for search engine over the website. searches the index of the keywords found in the document. 
+Problem with SOLR is to start the sunspot gem, killing the process manually, 
+
+##REDIS Presentation 
+(Re)mote (Di)ctionary (S)erver
+key value sotore DB. 
+keys are string 
+final values are also string 
+hashes, sets, strings, lists, bitmaps can be stored 
+Features: Persistence, replication, clustering, lua scripting. 
+Memory oriented
+single threaded
+
+##KAFKA & Distriubted Stream Processing 
+
+distributed
+fault tolerant
+messaging system
+high throughput 
+publish subscribe 
+ZooKeeper is required to run KAFKA
+KAFKA written in Scala; keeps messages upto N days 
 
 
 
