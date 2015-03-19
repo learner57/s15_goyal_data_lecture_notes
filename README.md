@@ -339,6 +339,17 @@ publish subscribe
 ZooKeeper is required to run KAFKA
 KAFKA written in Scala; keeps messages upto N days 
 
+#Lecture 19: Mar 19, 2015
+
+##Memcache Presentation
+
+distribued memory object caching system
+used to speed dynamic web 
+low complexity, simple clustering, 
+unbalanced clusters
+Memcache vs Memcached
+
+
 
 
 
