@@ -460,6 +460,19 @@ D3.js is a JavaScript library for manipulating documents based on data. D3 helps
 ##Leaflet 
 Leaflet is a modern open-source JavaScript library for mobile-friendly interactive maps. Leaflet is designed with simplicity, performance and usability in mind. It works efficiently across all major desktop and mobile platforms out of the box, taking advantage of HTML5 and CSS3 on modern browsers while still being accessible on older ones.
 
+#Lecture 28: Apr 28, 2015
 
+##Amazon Web Services 
+Amazon Web Services (AWS) is a dynamic, growing business unit within Amazon.com. We are currently hiring Software Development Engineers, Product Managers, Account Managers, Solution Architects, Support Engineers, System Engineers, Designers and more
 
+##Puppet
+Puppet is a tool designed to manage the configuration of Unix-like and Microsoft Windows systems declaratively. The user describes system resources and their state, either using Puppet's declarative language or a Ruby DSL (domain-specific language). This information is stored in files called "Puppet manifests". Puppet discovers the system information via a utility called Facter, and compiles the Puppet manifests into a system-specific catalog containing resources and resource dependency, which are applied against the target systems. Any actions taken by Puppet are then reported.
+
+##Lecture 29: Apr 23, 2015
+
+##Ext-js
+Sencha Ext JS is the most comprehensive MVC/MVVM JavaScript framework for building feature-rich cross-platform web applications. Sencha Ext JS leverages HTML5 features on modern browsers while maintaining compatibility and functionality for legacy browsers.
+
+##Google's Big Table
+BigTable is a compressed, high performance, and proprietary data storage system built on Google File System, Chubby Lock Service, SSTable (log-structured storage like LevelDB) and a few other Google technologies. It is not distributed outside Google, although it underlies Google Datastore, which is available as a part of the Google Cloud Platform.
 
