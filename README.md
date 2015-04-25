@@ -349,9 +349,116 @@ low complexity, simple clustering,
 unbalanced clusters
 Memcache vs Memcached
 
+#Lecture 20: Mar 31, 2015
+
+##ApacheHBase
+open source distributed column oriented database 
+built on hadoop file system
+similar to google's big table 
+data stored in tables 
+multiple column families
+no transactions
+uses zookeeper
+horizontally scalable 
+java API client
+
+#Lecture 21: Apr 02, 2015
+
+##Cassanrda
+scaled nosql
+no single point of failure
+elastic stability 
+fast linear scale performance 
+always in architecture 
+flexible data storage 
+operational simplicity
+trancational support 
+availability 
+data partitioning done by - ordered or random
+replication is done to tolerate fault 
+used by netflix, ebay, twitter
+
+#Lecture 22: Apr 07, 2015
+
+##Javascript Closures and Design Pattern
+scopes - where to look for things, uses functions
+prototypes
+closure
+this - run time 
+javascript is compiled, V8 is compiled
+angular services, modular pattern, JS does not have private data 
+class vs. prototype
+JS uses prototype inheritance 
+prototype uses delegation 
+
+#Lecture 23: Apr 09, 2015
+
+##Hadoop 
+The Apache Hadoop software library is a framework that allows for the distributed processing of large data sets across clusters of computers using simple programming models. It is designed to scale up from single servers to thousands of machines, each offering local computation and storage. Rather than rely on hardware to deliver high-availability, the library itself is designed to detect and handle failures at the application layer, so delivering a highly-available service on top of a cluster of computers, each of which may be prone to failures. 
+
+##Spark
+Spark runs on Hadoop, Mesos, standalone, or in the cloud. It can access diverse data sources including HDFS, Cassandra, HBase, S3. Spark offers over 80 high-level operators that make it easy to build parallel apps. And you can use it interactively from the Scala and Python shells. Spark has an advanced DAG execution engine that supports cyclic data flow and in-memory computing. 
+
+#Lecture 24: Apr 14, 2015
+
+##React
+open source
+by facebook 
+javascript library
+subdivides UI into small chunks
+maintains virtual DOM
+mix and match components with HTML
+one way state binding
+JSX: JS with HTML
+
+##Sinatra 
+micro web environment 
+rapid development 
+no MVC
+no default ORM
+encapsulation
+used in REST
+route: matching pattern btw HTTP and URL- can include wildcard parameters, query parameters, 
+use of static files 
+filters, helpers, testing, error handling, custom matches, 
+
+#Lecture 25: Apr 16, 2015
+
+##Capristano 
+Capistrano is written in Ruby, but it can easily be used to deploy any language.
+If your language or framework has special deployment requirements, Capistrano can easily be extended to support them.
+It supports the scripting and execution of arbitrary tasks, and includes a set of sane-default deployment workflows. Capistrano is also very scriptable, and can be integrated with any other Ruby software to form part of a larger tool.
+
+##Docker
+Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications. Consisting of Docker Engine, a portable, lightweight runtime and packaging tool, and Docker Hub, a cloud service for sharing applications and automating workflows, Docker enables apps to be quickly assembled from components and eliminates the friction between development, QA, and production environments. As a result, IT can ship faster and run the same app, unchanged, on laptops, data center VMs, and any cloud. 
 
 
+#Lecture 26: Apr 21, 2015
 
+##Turf
+GeoJson + turf = imformation
+GeoJson + turf+ mapping = infographics 
+geoJSON: points, line, collections, polygons, features, multipoint
+geojson.oi is a graphing map site
+use cases
+tips and tricks 
+
+##Flask
+Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intentions.
+built in developmetn system
+integrated unit testing support
+restful dipatching
+support for secure cookies
+unicode based
+properly documented
+
+#Lecture 27: Apr 23, 2015
+
+##D3
+D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation. 
+
+##Leaflet 
+Leaflet is a modern open-source JavaScript library for mobile-friendly interactive maps. Leaflet is designed with simplicity, performance and usability in mind. It works efficiently across all major desktop and mobile platforms out of the box, taking advantage of HTML5 and CSS3 on modern browsers while still being accessible on older ones.
 
 
 
