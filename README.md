@@ -468,7 +468,7 @@ Amazon Web Services (AWS) is a dynamic, growing business unit within Amazon.com.
 ##Puppet
 Puppet is a tool designed to manage the configuration of Unix-like and Microsoft Windows systems declaratively. The user describes system resources and their state, either using Puppet's declarative language or a Ruby DSL (domain-specific language). This information is stored in files called "Puppet manifests". Puppet discovers the system information via a utility called Facter, and compiles the Puppet manifests into a system-specific catalog containing resources and resource dependency, which are applied against the target systems. Any actions taken by Puppet are then reported.
 
-##Lecture 29: Apr 23, 2015
+##Lecture 29: Apr 30, 2015
 
 ##Ext-js
 Sencha Ext JS is the most comprehensive MVC/MVVM JavaScript framework for building feature-rich cross-platform web applications. Sencha Ext JS leverages HTML5 features on modern browsers while maintaining compatibility and functionality for legacy browsers.
