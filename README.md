@@ -476,3 +476,12 @@ Sencha Ext JS is the most comprehensive MVC/MVVM JavaScript framework for buildi
 ##Google's Big Table
 BigTable is a compressed, high performance, and proprietary data storage system built on Google File System, Chubby Lock Service, SSTable (log-structured storage like LevelDB) and a few other Google technologies. It is not distributed outside Google, although it underlies Google Datastore, which is available as a part of the Google Cloud Platform.
 
+Student's Presentations:
+
+1. twitter count analysis: analysis count by each state, word and time limit. Only geotagged, only US and only english words. Use of kafka, D3, ,angular, express and twitter stream. 
+2. RTD Bus Timer: track location of the bus stop and alert you to wake up when you reach you stop. Use of mongo, flask and java. works with gps and mobile devices. 
+3. Periscope mapper: use the broadcasting videos to map with the geo location. 
+4. Tracking school students: uisng mongo and java, tracking the location of student where he is live while going to shool, with two type of views: school and student. 
+5. REACCTING: checking out the emissions per house from kitchen in Ghana counted with the time set. Use og java and mongo, googlemaps api. 
+6. leaguestats: based on league of legends. use of python, MEAN stack and D3, pull data from game api. Use of Hapi. demo shows what time the person is playing the game. 
+7. Weather app in CALIFORNIA: use of mongo and ruby on rails and mapbox.
